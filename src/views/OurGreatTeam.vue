@@ -128,11 +128,11 @@ export default {
           name: "Faiz Ramdhani",
           job: "Public Relation",
           linkedin: "",
-          github: "",
+          github: "https://github.com/frmdhn",
           instagram: "https://www.instagram.com/faiz_ramdhani/",
           desc:
             "Faiz adalah mahasiswa yang merasa tersesat di jurusan informatika. saya tidak mengerti hal banyak tentang dunia informatika. Tetapi terimakasih untuk WBS dan anggotanya karena memberikan saya wadah untuk lebih mengeksplor diri saya dan mengajarkan saya hal-hal didunia informatika ini. Semoga kita sukses bersama!!",
-          image: require("../assets/images/Anggota/ran.jpg"),
+          image: require("../assets/images/Anggota/faiz.jpg"),
           isRight: true,
         },
         {
