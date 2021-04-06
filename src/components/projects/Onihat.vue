@@ -3,7 +3,7 @@
     <h4 class="projects-title">Our <span>awesome</span> projects</h4>
     <div class="projects-wrapper">
       <div class="projects-info">
-        <a href="" target="_blank" class="projects-name">Onihat</a>
+        <a :href="link" target="_blank" class="projects-name">Onihat</a>
         <p class="projects-desc">{{ desc }}</p>
         <h4 class="tech-title">Technologies we use :</h4>
         <div class="projects-tech">
@@ -61,6 +61,7 @@ export default {
   data() {
     return {
       image: require("../../assets/images/onihat.png"),
+      link: "https://onihat.wannabestart.com/onihat",
       desc:
         "Onihat is a social media to share emotions, feelings and experiences with someone anonymously. Onihat allows the user to feeling release of things that are burdens, sorrow, anxiety towards someone freely. Hopefully onihat can help people express everything they want to share every day without feeling fearful",
     };

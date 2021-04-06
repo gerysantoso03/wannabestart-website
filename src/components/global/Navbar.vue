@@ -4,22 +4,22 @@
       <div class="logo-img">
         <img :src="logo" alt="WBS Logo" />
       </div>
-      <router-link :to="{ name: 'Home' }"
-        ><p class="logo-title">WannaBeStart</p></router-link
+      <router-link :to="{ name: 'Home' }" class="logo-title"
+        >WannaBeStart</router-link
       >
     </div>
     <div class="navbar-content">
-      <router-link :to="{ name: 'AboutUs' }">
-        <a class="navbar-item">About Us</a></router-link
+      <router-link :to="{ name: 'AboutUs' }" class="navbar-item">
+        About Us</router-link
       >
-      <router-link :to="{ name: 'OurGreatTeam' }">
-        <a class="navbar-item">Our Great Team</a></router-link
+      <router-link :to="{ name: 'OurGreatTeam' }" class="navbar-item">
+        Our Great Team</router-link
       >
-      <router-link :to="{ name: 'Projects' }">
-        <a class="navbar-item">Projects</a></router-link
+      <router-link :to="{ name: 'Projects' }" class="navbar-item">
+        Projects</router-link
       >
-      <router-link :to="{ name: 'CustomerStory' }">
-        <a class="navbar-item">Customers Story</a></router-link
+      <router-link :to="{ name: 'CustomerStory' }" class="navbar-item">
+        Customers Story</router-link
       >
       <div class="btn-contact" @click="showModal">
         <p class="btn-title">Start a project</p>
@@ -64,6 +64,7 @@ export default {
 
     .logo-title {
       transition: color 0.4s;
+      font-size: 1.8rem;
       font-weight: 700;
       letter-spacing: 0.5px;
       cursor: pointer;
