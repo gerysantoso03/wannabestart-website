@@ -5,6 +5,7 @@ import OurGreatTeam from "../views/OurGreatTeam.vue";
 import AboutUs from "../views/AboutUs.vue";
 import CustomerStory from "../views/CustomerStory.vue";
 import Projects from "../views/Projects.vue";
+import NotFoundPage from "../views/NotFoundPage.vue";
 
 const routes = [
   {
@@ -31,6 +32,12 @@ const routes = [
     path: "/projects",
     name: "Projects",
     component: Projects,
+  },
+  // Catchall 404
+  {
+    path: "/:catchAll(.*)",
+    name: "NotFoundPage",
+    component: NotFoundPage,
   },
 ];
 
