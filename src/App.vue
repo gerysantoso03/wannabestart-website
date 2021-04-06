@@ -71,6 +71,11 @@ img {
   background: $dark-blue;
 }
 
+/* Navbar Active Style */
+a.router-link-exact-active {
+  color: $light-blue;
+}
+
 #app {
   font-family: "Lexend Deca", "Lexend", "Kiwi Maru", sans-serif;
 }
