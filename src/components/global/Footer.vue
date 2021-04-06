@@ -23,6 +23,11 @@
       <p class="copyright">
         <i class="far fa-copyright"></i> 2021 WannaBeStart. All Right Reserved
       </p>
+      <!-- Copyright for dekstop -->
+      <p class="copyright-tablet">
+        <i class="far fa-copyright"></i> 2021 WannaBeStart
+      </p>
+      <!-- Copyright for tablet -->
       <p class="love">Made with <i class="fas fa-heart"></i> by WannaBeStart</p>
       <div class="to-top">
         <i class="fas fa-caret-up"></i>
@@ -55,6 +60,7 @@ export default {
 
   .footer-title {
     font-size: 1.6rem;
+    margin-bottom: 0.5rem;
     color: $light-gray;
   }
 
@@ -103,6 +109,13 @@ export default {
       flex: 0 0 40%;
     }
 
+    .copyright-tablet {
+      display: none;
+      color: $light-gray;
+      font-size: 1.6rem;
+      flex: 0 0 40%;
+    }
+
     .love {
       color: $light-gray;
       font-size: 1.6rem;
@@ -127,6 +140,43 @@ export default {
         &:hover {
           color: $light-blue;
         }
+      }
+    }
+  }
+}
+
+/* Media query - Tablet styles */
+@media (min-width: $tablet-width) and (max-width: $dekstop-width) {
+  .footer {
+    .footer-bottom-info-wrapper {
+      .copyright {
+        display: none;
+      }
+      .copyright-tablet {
+        display: block;
+      }
+    }
+  }
+}
+
+/* Media query - Mobile styles */
+@media (max-width: $tablet-width) {
+  .footer {
+    .footer-top-info-wrapper {
+      .footer-logo {
+        display: none;
+      }
+    }
+
+    .footer-bottom-info-wrapper {
+      .copyright {
+        display: none;
+      }
+      .love {
+        flex: 0 0 50%;
+      }
+      .to-top {
+        flex: 0 0 50%;
       }
     }
   }
