@@ -108,9 +108,7 @@ export default {
   font-size: 1.4rem;
   font-weight: 300;
   margin-bottom: 1rem;
-  position: absolute;
   letter-spacing: 1px;
-  top: -3rem;
 }
 
 .timeline-display {
@@ -128,71 +126,100 @@ export default {
   margin: 0 auto;
   position: relative;
 
-  /* Make Line */
-  &::before {
-    content: "";
-    position: absolute;
-    width: 3px;
-    height: 100%;
-    background-color: $light-blue;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
   li {
     cursor: pointer;
     position: relative;
-    width: 50%;
+    border-radius: 2rem;
     padding: 2rem;
     background-color: $light-gray;
     margin-bottom: 3rem;
-
-    /* Make Dot */
-    &::after {
-      content: "";
-      position: absolute;
-      height: 2rem;
-      width: 2rem;
-      background-color: $duff-blue;
-      border-radius: 50%;
-      top: 0;
-      transition: background-color 0.5s;
-    }
-
-    &:hover::after {
-      background-color: $light-blue;
-    }
+    -webkit-box-shadow: 4px 5px 5px 0px rgba(166, 175, 200, 1);
+    -moz-box-shadow: 4px 5px 5px 0px rgba(166, 175, 200, 1);
+    box-shadow: 4px 5px 5px 0px rgba(166, 175, 200, 1);
   }
-
   li:last-child {
     margin-bottom: 0;
   }
+}
 
-  li:nth-child(odd) {
-    float: left;
-    clear: right;
-    border-radius: 2rem 0 2rem 2rem;
-    transform: translateX(-3rem);
-    -webkit-box-shadow: -4px 4px 10px 0px rgba(166, 175, 200, 1);
-    -moz-box-shadow: -4px 4px 10px 0px rgba(166, 175, 200, 1);
-    box-shadow: -4px 4px 10px 0px rgba(166, 175, 200, 1);
-    &::after {
-      right: -3rem;
-      transform: translate(50%, -50%);
-    }
+/* Media query - Table styles */
+@media (min-width: $tablet-width) {
+  .timeline-card-date {
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    position: absolute;
+    letter-spacing: 1px;
+    top: -3rem;
   }
+  .timeline-wrapper {
+    width: 80%;
+    max-width: 80rem;
+    margin: 0 auto;
+    position: relative;
 
-  li:nth-child(even) {
-    float: right;
-    clear: left;
-    border-radius: 0 2rem 2rem 2rem;
-    transform: translateX(3rem);
-    -webkit-box-shadow: 4px 4px 10px 0px rgba(166, 175, 200, 1);
-    -moz-box-shadow: 4px 4px 10px 0px rgba(166, 175, 200, 1);
-    box-shadow: 4px 4px 10px 0px rgba(166, 175, 200, 1);
-    &::after {
-      left: -3rem;
-      transform: translate(-50%, -50%);
+    /* Make Line */
+    &::before {
+      content: "";
+      position: absolute;
+      width: 3px;
+      height: 100%;
+      background-color: $light-blue;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    li {
+      cursor: pointer;
+      position: relative;
+      width: 50%;
+      padding: 2rem;
+      background-color: $light-gray;
+      margin-bottom: 3rem;
+
+      /* Make Dot */
+      &::after {
+        content: "";
+        position: absolute;
+        height: 2rem;
+        width: 2rem;
+        background-color: $duff-blue;
+        border-radius: 50%;
+        top: 0;
+        transition: background-color 0.5s;
+      }
+
+      &:hover::after {
+        background-color: $light-blue;
+      }
+    }
+
+    li:nth-child(odd) {
+      float: left;
+      clear: right;
+      border-radius: 2rem 0 2rem 2rem;
+      transform: translateX(-3rem);
+      -webkit-box-shadow: -4px 4px 10px 0px rgba(166, 175, 200, 1);
+      -moz-box-shadow: -4px 4px 10px 0px rgba(166, 175, 200, 1);
+      box-shadow: -4px 4px 10px 0px rgba(166, 175, 200, 1);
+      &::after {
+        right: -3rem;
+        transform: translate(50%, -50%);
+      }
+    }
+
+    li:nth-child(even) {
+      float: right;
+      clear: left;
+      border-radius: 0 2rem 2rem 2rem;
+      transform: translateX(3rem);
+      -webkit-box-shadow: 4px 4px 10px 0px rgba(166, 175, 200, 1);
+      -moz-box-shadow: 4px 4px 10px 0px rgba(166, 175, 200, 1);
+      box-shadow: 4px 4px 10px 0px rgba(166, 175, 200, 1);
+      &::after {
+        left: -3rem;
+        transform: translate(-50%, -50%);
+      }
     }
   }
 }

@@ -88,4 +88,31 @@ export default {
     }
   }
 }
+
+/* Media query - Tablet style */
+
+@media (min-width: $tablet-width) and (max-width: $dekstop-width) {
+  .hero-about-wrapper {
+    .about-image {
+      display: none;
+    }
+
+    .about-desc {
+      width: 100%;
+    }
+  }
+}
+
+/* Media query - Mobile styles */
+@media (max-width: $tablet-width) {
+  .hero-about-wrapper {
+    .about-image {
+      display: none;
+    }
+
+    .about-desc {
+      width: 100%;
+    }
+  }
+}
 </style>
