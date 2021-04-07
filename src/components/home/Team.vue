@@ -165,5 +165,9 @@ export default {
     width: 50%;
     margin-bottom: 1rem;
   }
+
+  .team-postitle {
+    font-size: 1.5rem;
+  }
 }
 </style>
