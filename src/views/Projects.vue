@@ -7,9 +7,11 @@
   >
     <Modal v-if="isShowModal" @close="toggleModal" />
   </transition>
-  <onihat />
-  <currusrent />
-  <nisuma />
+  <item-project
+    v-for="project in projects"
+    :key="project.id"
+    :project="project"
+  />
   <Footer />
 </template>
 
@@ -17,23 +19,119 @@
 import Modal from "../components/global/Modal";
 import Footer from "../components/global/Footer";
 import Navbar from "../components/global/Navbar";
-import Onihat from "../components/projects/Onihat";
-import Currusrent from "../components/projects/Currusrent";
-import Nisuma from "../components/projects/Nisuma";
+import ItemProject from "../components/projects/ItemProject";
 
 export default {
   name: "projects",
   components: {
     Navbar,
     Modal,
-    Onihat,
-    Currusrent,
-    Nisuma,
+    ItemProject,
     Footer,
   },
   data() {
     return {
       isShowModal: false,
+      projects: [
+        {
+          id: 1,
+          name: "Onihat",
+          image: require("../assets/images/onihat.png"),
+          link: "https://onihat.wannabestart.com/onihat",
+          desc:
+            "Onihat is a social media to share emotions, feelings and experiences with someone anonymously. Onihat allows the user to feeling release of things that are burdens, sorrow, anxiety towards someone freely. Hopefully onihat can help people express everything they want to share every day without feeling fearful",
+          webTechnologies: [
+            {
+              id: 1,
+              class: "fab fa-vuejs",
+            },
+            {
+              id: 2,
+              class: "fab fa-sass",
+            },
+          ],
+          mobileTechnologies: [
+            {
+              id: 1,
+              class: "fab fa-react",
+            },
+            {
+              id: 2,
+              class: "fab fa-css3-alt",
+            },
+          ],
+          designTechnologies: [
+            {
+              id: 1,
+              class: "fab fa-figma",
+            },
+          ],
+        },
+        {
+          id: 2,
+          name: "CurrusRent",
+          image: require("../assets/images/curus.png"),
+          link: "",
+          desc:
+            "CurrusRent is a marketplace for vehicle rental service providers and users to make transactions with each other. Currusrent provide comfort, safety, and convenience for users and service providers in carrying out the vehicle rental process. Currusrent will be a new breakthrough in providing something different in vehicle rental activities",
+          webTechnologies: [
+            {
+              id: 1,
+              class: "fab fa-php",
+            },
+            {
+              id: 2,
+              class: "fab fa-laravel",
+            },
+            {
+              id: 3,
+              class: "fab fa-css3-alt",
+            },
+            {
+              id: 4,
+              class: "fab fa-js",
+            },
+          ],
+          designTechnologies: [
+            {
+              id: 1,
+              class: "fab fa-figma",
+            },
+          ],
+        },
+        {
+          id: 3,
+          name: "Nisuma Paper",
+          image: require("../assets/images/nisuma.png"),
+          link: "https://nisumapapercups.com/",
+          desc:
+            "Nisuma was our first client project. Nilam Sukses Mandiri is a company that provides high quality food and beverage containers, which is hygienic and enviromental-friendly. WannaBeStart develops the functionality and design of the nisuma website, so that it becomes modern and user-friendly for all nisuma web visitors",
+          webTechnologies: [
+            {
+              id: 1,
+              class: "fab fa-php",
+            },
+            {
+              id: 2,
+              class: "fab fa-laravel",
+            },
+            {
+              id: 3,
+              class: "fab fa-css3-alt",
+            },
+            {
+              id: 4,
+              class: "fab fa-js",
+            },
+          ],
+          designTechnologies: [
+            {
+              id: 1,
+              class: "fab fa-figma",
+            },
+          ],
+        },
+      ],
     };
   },
   methods: {
@@ -46,16 +144,6 @@ export default {
 
 <style lang="scss">
 @import "../assets/scss/_variable.scss";
-
-.projects-title {
-  font-size: 3rem;
-  text-align: center;
-  margin-bottom: 4rem;
-  font-weight: 700;
-  span {
-    color: $duff-blue;
-  }
-}
 
 .projects-wrapper {
   display: flex;
@@ -91,12 +179,18 @@ export default {
       display: flex;
       flex-direction: column;
 
+      .tech-wrapper {
+        display: flex;
+        align-items: center;
+        // border: 1px solid $dark;
+      }
+
       .web-title,
       .mobile-title,
       .design-title {
         display: flex;
         justify-content: space-between;
-        width: 18%;
+        width: 20%;
         margin-bottom: 0.5rem;
         p {
           font-size: 1.6rem;
@@ -108,7 +202,7 @@ export default {
       .web-tech,
       .mobile-tech,
       .design-tech {
-        margin: 0.5rem 0;
+        margin: 0.5rem 1rem;
         display: flex;
 
         .tech-item {
@@ -141,6 +235,46 @@ export default {
 
   .projects-image {
     width: 50%;
+  }
+}
+
+/* Media query - Tabler styles */
+@media (min-width: $tablet-width) and (max-width: $dekstop-width) {
+  .projects {
+    padding: 3rem;
+
+    .projects-wrapper {
+      flex-direction: column;
+
+      .projects-info {
+        width: 100%;
+      }
+
+      .projects-image {
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
+
+/* Media query - Mobile styles */
+@media (max-width: $tablet-width) {
+  .projects {
+    padding: 3rem;
+
+    .projects-wrapper {
+      flex-direction: column;
+
+      .projects-image {
+        display: none;
+      }
+
+      .projects-info {
+        width: 100%;
+      }
+    }
   }
 }
 </style>
