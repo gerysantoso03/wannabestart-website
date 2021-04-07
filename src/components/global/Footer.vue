@@ -172,8 +172,13 @@ export default {
       .copyright {
         display: none;
       }
-      .love {
+
+      .copyright-tablet {
+        display: block;
         flex: 0 0 50%;
+      }
+      .love {
+        display: none;
       }
       .to-top {
         flex: 0 0 50%;
