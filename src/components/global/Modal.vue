@@ -223,4 +223,31 @@ export default {
     }
   }
 }
+
+/* Media query - Tablet styles */
+@media (min-width: $tablet-width) and (max-width: $dekstop-width) {
+  .modal-wrapper {
+    .input-radio {
+      .input-radio-wrapper {
+        flex-direction: column;
+      }
+    }
+  }
+}
+
+@media (max-width: $tablet-width) {
+  .modal-wrapper {
+    .input-wrapper {
+      flex-direction: column;
+      .input-group {
+        width: 100%;
+      }
+    }
+    .input-radio {
+      .input-radio-wrapper {
+        flex-direction: column;
+      }
+    }
+  }
+}
 </style>
