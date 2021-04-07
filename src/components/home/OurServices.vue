@@ -134,4 +134,44 @@ export default {
     }
   }
 }
+
+/* Media query - Tablet styles */
+@media (min-width: $tablet-width) and (max-width: $dekstop-width) {
+  .our-services-wrapper {
+    .services-image {
+      display: none;
+    }
+
+    .services-info-wrapper {
+      width: 100%;
+      .service-info {
+        margin-bottom: 2rem;
+      }
+      .service-info:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: $tablet-width) {
+  .our-services-title {
+    text-align: center;
+  }
+  .our-services-wrapper {
+    .services-image {
+      display: none;
+    }
+
+    .services-info-wrapper {
+      width: 100%;
+      .service-info {
+        margin-bottom: 2rem;
+      }
+      .service-info:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
 </style>

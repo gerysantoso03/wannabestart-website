@@ -153,4 +153,17 @@ export default {
     color: $duff-blue;
   }
 }
+
+/* Media query - Tablet styles */
+@media (max-width: $tablet-width) {
+  .team2-wrapper,
+  .team3-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .team-member {
+    width: 50%;
+    margin-bottom: 1rem;
+  }
+}
 </style>

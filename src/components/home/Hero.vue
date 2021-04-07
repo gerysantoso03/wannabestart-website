@@ -40,6 +40,7 @@ export default {
   align-items: center;
 
   .hero-info-wrapper {
+    padding: 2rem;
     width: 50%;
 
     .hero-title {
@@ -61,11 +62,14 @@ export default {
     .hero-info {
       margin-bottom: 0.5rem;
       font-weight: 700;
+      font-size: 2rem;
+      text-align: justify;
     }
 
     .hero-info-2 {
-      font-size: 1.6rem;
+      font-size: 1.8rem;
       margin-bottom: 2rem;
+      text-align: justify;
     }
 
     .btn-hero {
@@ -93,6 +97,49 @@ export default {
     img {
       clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
       border-radius: 3rem;
+    }
+  }
+}
+
+/* Media query - Tablet Styles */
+@media (min-width: $tablet-width) and (max-width: $dekstop-width) {
+  .hero {
+    .hero-logo-wrapper {
+      width: 45%;
+    }
+
+    .hero-info-wrapper {
+      width: 55%;
+
+      .hero-title {
+        font-size: 3.2rem;
+      }
+
+      .hero-title-blue {
+        font-size: 2.8rem;
+        margin-bottom: 0.8rem;
+      }
+
+      .hero-info {
+        font-size: 1.6rem;
+      }
+      .hero-info-2 {
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
+
+/* Media query - Mobile styles */
+@media (max-width: $tablet-width) {
+  .hero {
+    .hero-logo-wrapper {
+      display: none;
+    }
+    .hero-info-wrapper {
+      width: 100%;
+      padding: 0;
     }
   }
 }
