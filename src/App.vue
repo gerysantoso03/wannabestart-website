@@ -24,6 +24,10 @@ html {
   font-size: 10px;
 }
 
+body {
+  position: relative;
+}
+
 section {
   padding: 6rem;
 }

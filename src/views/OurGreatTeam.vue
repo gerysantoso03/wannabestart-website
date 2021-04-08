@@ -183,4 +183,10 @@ export default {
   flex-direction: column;
   align-items: center;
 }
+
+@media only screen and (max-width: 425px) {
+  .great-team {
+    padding: 3rem;
+  }
+}
 </style>

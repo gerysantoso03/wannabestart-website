@@ -66,4 +66,10 @@ export default {
     border-right: 0;
   }
 }
+
+@media only screen and (max-width: 425px) {
+  .customers {
+    padding: 3rem;
+  }
+}
 </style>

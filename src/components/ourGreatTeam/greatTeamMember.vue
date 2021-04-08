@@ -30,7 +30,7 @@
   </div>
   <!-- End Right Team -->
 
-  <div v-if="team.isLeft" class="great-team-card">
+  <div v-if="team.isLeft" class="great-team-card column-reverse">
     <div class="card-desc-wrapper-right">
       <h4 class="card-name">{{ team.name }}</h4>
       <h4 class="card-job">{{ team.job }}</h4>
@@ -95,7 +95,7 @@ export default {
   }
 
   .card-desc-wrapper-right {
-    margin-right: 1rem;
+    margin-right: 4rem;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -104,7 +104,7 @@ export default {
   }
 
   .card-desc-wrapper-left {
-    margin-left: 1rem;
+    margin-left: 4rem;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -138,6 +138,7 @@ export default {
   .card-social-media {
     display: flex;
     justify-content: space-between;
+    margin-top: 2rem;
     width: 40%;
 
     .social-media-item {
@@ -167,6 +168,154 @@ export default {
         }
       }
     }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .great-team-card {
+    flex-wrap: wrap;
+
+    .card-image-left {
+      flex: 1;
+      min-width: 200px;
+    }
+
+    .card-image-right {
+      flex: 1;
+      min-width: 200px;
+    }
+
+    .card-desc-wrapper-right {
+      margin-right: 2.8rem;
+      flex: 1;
+      min-width: 200px;
+
+      .card-name {
+        font-size: 2.8rem;
+      }
+
+      .card-job {
+        font-size: 2rem;
+      }
+
+      .card-info {
+        font-size: 1.4rem;
+      }
+    }
+
+    .card-desc-wrapper-left {
+      margin-left: 2.8rem;
+      flex: 1;
+      min-width: 200px;
+
+      .card-name {
+        font-size: 2.8rem;
+      }
+
+      .card-job {
+        font-size: 2rem;
+      }
+
+      .card-info {
+        font-size: 1.4rem;
+      }
+    }
+
+    .card-social-media {
+      display: flex;
+      justify-content: flex-start;
+      width: 100%;
+
+      .social-media-item {
+        margin-top: 2rem;
+        margin-right: 2.8rem;
+      }
+    }
+  }
+}
+
+// Ipad
+@media only screen and (max-width: 768px) {
+  .great-team-card {
+    .card-desc-wrapper-right {
+      margin-right: 2rem;
+      flex: 1.3;
+
+      .card-name {
+        font-size: 2.2rem;
+      }
+
+      .card-job {
+        font-size: 2rem;
+      }
+
+      .card-info {
+        font-size: 1.4rem;
+        line-height: 2.2rem;
+      }
+    }
+
+    .card-desc-wrapper-left {
+      margin-left: 2rem;
+      flex: 1.3;
+
+      .card-name {
+        font-size: 2.2rem;
+      }
+
+      .card-job {
+        font-size: 2rem;
+      }
+
+      .card-info {
+        font-size: 1.4rem;
+        line-height: 2.2rem;
+      }
+    }
+
+    .card-social-media {
+      .social-media-item {
+        margin-top: 2rem;
+        margin-right: 2.8rem;
+        width: 4rem;
+        height: 4rem;
+        a {
+          i {
+            font-size: 2.2rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .great-team-card {
+    margin: 4rem 0;
+  }
+  .column-reverse {
+    flex-direction: column-reverse;
+    .card-image-left {
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+    .card-desc-wrapper-right {
+      width: 100%;
+      margin: 0;
+    }
+  }
+
+  .card-info {
+    line-height: 2rem !important;
+  }
+
+  .card-image-right {
+    margin-bottom: 2rem;
+  }
+
+  .card-desc-wrapper-left {
+    align-items: flex-start !important;
+    margin: 0 !important;
   }
 }
 </style>
