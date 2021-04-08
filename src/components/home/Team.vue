@@ -158,12 +158,12 @@ export default {
 @media (max-width: $tablet-width) {
   .team2-wrapper,
   .team3-wrapper {
-    flex-wrap: wrap;
+    flex-direction: column;
   }
 
   .team-member {
-    width: 50%;
-    margin-bottom: 1rem;
+    width: 100%;
+    margin: 1rem 0;
   }
 
   .team-postitle {

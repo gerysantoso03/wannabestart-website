@@ -266,6 +266,12 @@ export default {
   }
 }
 
+@media only screen and (max-width: $tablet-width) {
+  .navbar {
+    padding: 1.5rem 3rem;
+  }
+}
+
 @media only screen and (max-width: 425px) {
   .navbar {
     padding: 1.5rem 3rem;

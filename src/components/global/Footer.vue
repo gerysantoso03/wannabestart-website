@@ -162,6 +162,7 @@ export default {
 /* Media query - Mobile styles */
 @media (max-width: $tablet-width) {
   .footer {
+    padding: 3rem;
     .footer-top-info-wrapper {
       .footer-logo {
         display: none;

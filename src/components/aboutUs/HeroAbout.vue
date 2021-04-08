@@ -105,13 +105,17 @@ export default {
 
 /* Media query - Mobile styles */
 @media (max-width: $tablet-width) {
-  .hero-about-wrapper {
-    .about-image {
-      display: none;
-    }
+  .hero-about {
+    padding: 3rem;
 
-    .about-desc {
-      width: 100%;
+    .hero-about-wrapper {
+      .about-image {
+        display: none;
+      }
+
+      .about-desc {
+        width: 100%;
+      }
     }
   }
 }

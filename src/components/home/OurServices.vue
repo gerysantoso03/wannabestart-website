@@ -85,6 +85,7 @@ export default {
 
     .service-info {
       display: flex;
+      margin-bottom: 1rem;
       border: 2px dashed $dark-blue;
       padding: 2rem 0;
       border-radius: 2rem;
@@ -101,9 +102,14 @@ export default {
         }
       }
 
+      .service-info:last-child {
+        margin-bottom: 0;
+      }
+
       .service-logo {
         border-radius: 2rem 0 0 2rem;
-        flex: 0 0 20%;
+        flex: 0 0 1;
+        min-width: 10rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -117,6 +123,8 @@ export default {
       }
 
       .services-desc-wrapper {
+        min-width: 20rem;
+        flex: 0 0 2;
         .service-title {
           margin-bottom: 1rem;
           font-size: 2rem;
@@ -155,21 +163,42 @@ export default {
 }
 
 @media (max-width: $tablet-width) {
-  .our-services-title {
-    text-align: center;
-  }
-  .our-services-wrapper {
-    .services-image {
-      display: none;
-    }
+  .our-services {
+    padding: 3rem;
 
-    .services-info-wrapper {
-      width: 100%;
-      .service-info {
-        margin-bottom: 2rem;
+    .our-services-title {
+      text-align: center;
+    }
+    .our-services-wrapper {
+      .services-image {
+        display: none;
       }
-      .service-info:last-child {
-        margin-bottom: 0;
+
+      .services-info-wrapper {
+        width: 100%;
+        .service-info {
+          flex-direction: column;
+          margin-bottom: 2rem;
+
+          .service-logo {
+            margin-bottom: 0.5rem;
+          }
+
+          .services-desc-wrapper {
+            padding: 1rem;
+            .service-title,
+            .service-desc {
+              text-align: center;
+            }
+
+            .service-desc {
+              font-size: 1.4rem;
+            }
+          }
+        }
+        .service-info:last-child {
+          margin-bottom: 0;
+        }
       }
     }
   }

@@ -135,6 +135,10 @@ export default {
 @media only screen and (max-width: 425px) {
   .customer-cards {
     padding: 3rem;
+
+    .customer-cards-title {
+      font-size: 2.5rem;
+    }
   }
 }
 </style>

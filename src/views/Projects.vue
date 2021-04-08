@@ -202,8 +202,9 @@ export default {
       .web-tech,
       .mobile-tech,
       .design-tech {
-        margin: 0.5rem 1rem;
+        margin: 0.5rem 2rem;
         display: flex;
+        flex-wrap: wrap;
 
         .tech-item {
           border: 1px solid $light-blue;
@@ -211,7 +212,7 @@ export default {
           justify-content: center;
           align-items: center;
           border-radius: 50%;
-          margin-right: 1rem;
+          margin: 0.5rem 1rem;
           height: 5rem;
           width: 5rem;
           cursor: pointer;
@@ -241,8 +242,6 @@ export default {
 /* Media query - Tabler styles */
 @media (min-width: $tablet-width) and (max-width: $dekstop-width) {
   .projects {
-    padding: 3rem;
-
     .projects-wrapper {
       flex-direction: column;
 
@@ -273,6 +272,10 @@ export default {
 
       .projects-info {
         width: 100%;
+
+        .projects-tech {
+          width: 100%;
+        }
       }
     }
   }

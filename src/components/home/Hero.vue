@@ -134,12 +134,28 @@ export default {
 /* Media query - Mobile styles */
 @media (max-width: $tablet-width) {
   .hero {
+    padding: 3rem;
     .hero-logo-wrapper {
       display: none;
     }
     .hero-info-wrapper {
       width: 100%;
       padding: 0;
+
+      .hero-title {
+        font-size: 3rem;
+      }
+      .hero-title-blue {
+        font-size: 2.5rem;
+      }
+
+      .hero-info {
+        font-size: 1.6rem;
+      }
+
+      .hero-info-2 {
+        font-size: 1.5rem;
+      }
     }
   }
 }

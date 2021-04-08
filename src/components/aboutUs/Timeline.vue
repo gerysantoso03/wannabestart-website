@@ -71,6 +71,10 @@ export default {
 <style lang="scss" scoped>
 @import "../../assets/scss/_variable.scss";
 
+.timeline {
+  padding: 3rem;
+}
+
 .timeline-title {
   font-size: 3rem;
   text-align: center;
@@ -117,7 +121,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5rem 0;
+  padding: 3rem 0;
 }
 
 .timeline-wrapper {

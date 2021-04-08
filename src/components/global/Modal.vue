@@ -83,9 +83,9 @@ export default {
   width: 70%;
   margin: 0 auto;
   position: fixed;
-  top: 7rem;
-  left: 5rem;
-  right: 5rem;
+  top: 3rem;
+  left: 0;
+  right: 0;
   z-index: 999;
   background-color: $light-gray;
   padding: 2.5rem;
@@ -236,6 +236,14 @@ export default {
 }
 
 @media (max-width: $tablet-width) {
+  .modal {
+    top: 1rem;
+  }
+
+  .modal-postitle {
+    display: none;
+  }
+
   .modal-wrapper {
     .input-wrapper {
       flex-direction: column;
@@ -246,6 +254,17 @@ export default {
     .input-radio {
       .input-radio-wrapper {
         flex-direction: column;
+      }
+    }
+
+    .btn-submit-wrapper {
+      margin-top: 1rem;
+
+      .btn-submit {
+        width: 15rem;
+        p {
+          font-size: 1.4rem;
+        }
       }
     }
   }

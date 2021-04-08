@@ -70,6 +70,10 @@ export default {
 @media only screen and (max-width: 425px) {
   .customers {
     padding: 3rem;
+
+    .customers-title {
+      font-size: 2.5rem;
+    }
   }
 }
 </style>
