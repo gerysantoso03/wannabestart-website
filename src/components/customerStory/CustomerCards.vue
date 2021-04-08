@@ -73,8 +73,9 @@ export default {
 
   .customer-cards-wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     gap: 2rem;
+
     .customer-card {
       -webkit-box-shadow: 1px 3px 5px 0px rgba(166, 175, 200, 1);
       -moz-box-shadow: 1px 3px 5px 0px rgba(166, 175, 200, 1);
@@ -82,7 +83,6 @@ export default {
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
-      // border: 1px solid $light-blue;
       background-color: #fff;
       padding: 2rem;
       border-radius: 1rem;
@@ -129,6 +129,12 @@ export default {
         }
       }
     }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .customer-cards {
+    padding: 3rem;
   }
 }
 </style>

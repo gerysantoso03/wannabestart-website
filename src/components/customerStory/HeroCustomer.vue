@@ -4,6 +4,7 @@
       <div class="hero-customer-image">
         <img :src="image" alt="Hero Customer Image" />
       </div>
+
       <div class="hero-customer-info">
         <h4 class="customer-title">WannaBeStart</h4>
         <h4 class="customer-postitle">Customer Stories</h4>
@@ -32,16 +33,18 @@ export default {
 
 .hero-customer-wrapper {
   display: flex;
+  flex-wrap: wrap;
 
   .hero-customer-image {
-    width: 50%;
+    flex: 1;
+    min-width: 220px;
     img {
       border-radius: 2rem;
     }
   }
 
   .hero-customer-info {
-    width: 50%;
+    flex: 1;
     padding: 0 2rem;
     display: flex;
     flex-direction: column;
@@ -69,6 +72,28 @@ export default {
       span {
         color: $duff-blue;
         font-weight: 700;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .hero-customer {
+    padding: 3rem;
+
+    .hero-customer-info {
+      padding: 3rem 0 !important;
+
+      .customer-title {
+        font-size: 2.7rem !important;
+      }
+
+      .customer-postitle {
+        font-size: 2rem !important;
+      }
+
+      .customer-desc {
+        font-size: 1.8rem !important;
       }
     }
   }
