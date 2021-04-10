@@ -2,8 +2,8 @@
   <navbar @show="toggleModal" />
   <!-- Transition for showing modal -->
   <transition
-    enter-active-class="animate__animated animate__backInDown animate__faster"
-    leave-active-class="animate__animated animate__backOutUp animate_faster"
+    enter-active-class="animate__animated animate__backInDown animate__fast"
+    leave-active-class="animate__animated animate__backOutUp animate_fast"
   >
     <Modal v-if="isShowModal" @close="toggleModal" />
   </transition>
