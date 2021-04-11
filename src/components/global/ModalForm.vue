@@ -4,21 +4,21 @@
       <div class="input-wrapper">
         <div class="input-group">
           <label for="Firstname">Firstname</label>
-          <input type="text" name="firstname" v-model="firstname" />
+          <input type="text" name="firstname" v-model="firstname" required />
         </div>
         <div class="input-group">
           <label for="Lastname">Lastname</label>
-          <input type="text" name="lastname" v-model="lastname" />
+          <input type="text" name="lastname" v-model="lastname" required />
         </div>
       </div>
       <div class="input-wrapper">
         <div class="input-group">
           <label for="Mail">Mail</label>
-          <input type="email" name="mail" v-model="mail" />
+          <input type="email" name="mail" v-model="mail" required />
         </div>
         <div class="input-group">
           <label for="Phone">Phone</label>
-          <input type="text" name="phone" v-model="phone" />
+          <input type="number" name="phone" v-model="phone" required />
         </div>
       </div>
       <div class="input-radio">
@@ -30,6 +30,7 @@
               name="services"
               v-model="services"
               value="Website Development"
+              checked
             />
             <label for="website development">Website Development</label>
           </div>
@@ -55,7 +56,8 @@
       </div>
       <div class="input-textarea">
         <label for="Message">Message</label>
-        <textarea name="message" v-model="message" rows="5"> </textarea>
+        <textarea name="message" v-model="message" rows="5" required>
+        </textarea>
       </div>
       <div class="btn-submit-wrapper">
         <input class="btn-submit" type="submit" value="Send Message" />
@@ -82,23 +84,23 @@ export default {
   },
   methods: {
     sendEmail(e) {
-    //   emailjs
-    //     .sendForm(
-    //       "SERVICE_WBS",
-    //       "TEMPLATE_SERVICE_WBS",
-    //       e.target,
-    //       "user_TPdJ8HdhpQ2fkyo7mVK2P",
-    //       {
-    //         firstname: this.firstname,
-    //         lastname: this.lastname,
-    //         mail: this.mail,
-    //         phone: this.phone,
-    //         services: this.services,
-    //         message: this.message,
-    //       }
-    //     )
-    //     .then((res) => console.log(res.text))
-    //     .catch((err) => console.log(err.message));
+      emailjs
+        .sendForm(
+          "SERVICE_WBS",
+          "TEMPLATE_SERVICE_WBS",
+          e.target,
+          "user_TPdJ8HdhpQ2fkyo7mVK2P",
+          {
+            firstname: this.firstname,
+            lastname: this.lastname,
+            mail: this.mail,
+            phone: this.phone,
+            services: this.services,
+            message: this.message,
+          }
+        )
+        .then((res) => console.log(res.text))
+        .catch((err) => console.log(err.message));
       this.$emit("thanks");
     },
   },

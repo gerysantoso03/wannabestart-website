@@ -10,7 +10,7 @@
       Want to build a product? Just write us a message!
     </h4>
     <transition
-      enter-active-class="animate__animated animate__lightSpeedInLeft animate__fast"
+      enter-active-class="animate__animated animate__lightSpeedInLeft animate_delay-1s"
     >
       <modal-form v-if="!isThanks" @thanks="toggleIsThanks" />
       <modal-thanks v-else />
