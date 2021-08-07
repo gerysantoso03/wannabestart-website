@@ -1,4 +1,4 @@
-<template>
+ <template>
   <section class="customer-cards">
     <h4 class="customer-cards-title">
       See what are our <span>customers</span> tell us about
@@ -30,25 +30,25 @@ export default {
     return {
       clients: [
         {
-          name: "Gery Santoso",
-          job: "Co-Founder Google",
-          age: 30,
+          name: "Jeffry Nilam",
+          job: "COO Nisuma Pepercups",
+          age: 20,
           testimony:
-            "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus ab blanditiis fuga necessitatibus eaque ipsum, officia, exercitationem dignissimos maiores eveniet non magnam cumque? Ullam necessitatibus illo delectus id error enim.",
+            "Kinerja tim WannaBeStart saat mengerjakan website kami cukup memuaskan, karena saya melihat tim bisa mensinergikan semua elemen dalam tim secara maksimal sehingga alur pengerjaan website sangat teratur dan tepat waktu. Hasil yang diberikan juga cukup memuaskan karena tim memiliki wawasan website yang cukup luas dan luar biasa. Sehingga menurut saya tim ini layak mendapatkan proyek lebih. Pesan untuk tim, kedepannya semoga bisa lebih berinovasi secara kreatif terhadap jasa dan produk yang dihasilkan dan dapat beradaptasi terhadap perubahan ekonomi dan era digital di industri 4.0",
         },
         {
-          name: "Gery Santoso",
-          job: "Co-Founder Google",
-          age: 30,
+          name: "Varent Tamarisca",
+          job: "Founder Cooking Media",
+          age: 21,
           testimony:
-            "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus ab blanditiis fuga necessitatibus eaque ipsum, officia, exercitationem dignissimos maiores eveniet non magnam cumque? Ullam necessitatibus illo delectus id error enim.",
+            "Aku suka banget sama tampilannya, walaupun banyak fungsi dalam satu page tapi tetap rapi dan tidak melupakan estetika. Temen-temen WBS juga asik banget, jadi gak kaku pas ngobrol tentang project. Thank You WBS",
         },
         {
-          name: "Gery Santoso",
-          job: "Co-Founder Google",
-          age: 30,
+          name: "Cinthya",
+          job: "IT Cooking Media",
+          age: 20,
           testimony:
-            "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus ab blanditiis fuga necessitatibus eaque ipsum, officia, exercitationem dignissimos maiores eveniet non magnam cumque? Ullam necessitatibus illo delectus id error enim.",
+            "Good, bagus banget. Hasil prototype yang dibuat dalam waktu singkat sangat bagus. Ditambah udah responsive dan stylingnya rapi banget. Untuk fitur juga udah ada yang dibikin jalan serta udah banyak yang dibikinin templatenya langsung, jd kita tinggal ubah ubah aja. Makasih WBS! semangat teruss",
         },
       ],
     };

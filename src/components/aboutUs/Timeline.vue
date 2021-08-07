@@ -62,6 +62,12 @@ export default {
           desc:
             "Our second project comes from Aero99, a luxury car vehicle showroom. When meeting with them we all look at the luxury cars that are sold by them, what a beautiful sight!",
         },
+        {
+          title: "Collaboration With Cooking Media",
+          date: "25 Juli 2021",
+          desc:
+            "This is our collaboration project with one of the teams in Skystar Venture Incubation Program, Cooking Media. Our team builds a prototype for their website and Cooking Media provide feedback to our development workflow",
+        },
       ],
     };
   },
