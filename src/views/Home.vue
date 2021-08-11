@@ -9,6 +9,7 @@
   </transition>
   <hero />
   <our-services />
+  <customer-journey />
   <Team />
   <Footer />
 </template>
@@ -17,6 +18,7 @@
 import Navbar from "../components/global/Navbar";
 import Hero from "../components/home/Hero";
 import OurServices from "../components/home/OurServices";
+import CustomerJourney from '../components/home/CustomerJourney.vue';
 import Team from "../components/home/Team";
 import Modal from "../components/global/Modal";
 import Footer from "../components/global/Footer";
@@ -27,6 +29,7 @@ export default {
     Navbar,
     Hero,
     OurServices,
+    CustomerJourney,
     Team,
     Modal,
     Footer,
