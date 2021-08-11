@@ -29,7 +29,7 @@
       </p>
       <!-- Copyright for tablet -->
       <p class="love">Made with <i class="fas fa-heart"></i> by WannaBeStart</p>
-      <div class="to-top">
+      <div @click="toTop" class="to-top">
         <i class="fas fa-caret-up"></i>
       </div>
     </div>
@@ -49,6 +49,11 @@ export default {
         "https://wa.me/6287887800489?text=Hello WannaBeStart i want to build a project :)",
     };
   },
+  methods: {
+    toTop(){
+      document.documentElement.scrollTop = 0;
+    },
+  }
 };
 </script>
 
