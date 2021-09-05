@@ -53,7 +53,7 @@ export default {
           github: "https:/github.com/rans0",
           instagram: "https:/www.instagram.com/dekrannn/",
           desc:
-            "WannaBeStart saya bentuk bersama ke-tiga teman saya sebelumnya, berawal dari ide saya yang ingin membuat suatu project yang bisa digunakan oleh orang banyak namun pada akhirnya project tersebut terlantar dan sekarang fokus mencari uang sekaligus meningkatkan skill sembari mencari client sekaligus mewujudkan WBS menjadi sebuah startup kedepannya. Kerjaan saya di WannaBeStart adalah sebagai Backend Developer namun terkadang saya merangkap menjadi dukun agar meningkatkan rate approval terhadap calon client.",
+            "WannaBeStart I formed with three of my friends before, starting from my idea that wants to create a project that can be used by many people but in the end the project is abandoned, its funny hahaha and now focused on making money while improving skills while looking for clients while realizing WBS into a startup in the future. My Role at WannaBeStart is as a Backend Developer but sometimes I double as a shaman in order to increase the approval rate of prospective clients.",
           image: require("../assets/images/Anggota/ran.jpg"),
           isLeft: true,
         },
@@ -65,7 +65,7 @@ export default {
           github: "https:/github.com/dekapd99",
           instagram: "https:/www.instagram.com/deka_pd/",
           desc:
-            "Deka adalah orang yang dapat membawa positif vibe dan profesionalisme di dalam sebuah tim. Dapat mengurus keuangan dan surat menyurat. Hanya dengan kepercayaan, semua pekerjaan dapat diselesaikan. Karena ia percaya 1 hal yang pasti bahwa : 'Uang tidak dapat memberikan kebahagiaan, KALO SEDIKIT' - Pihak Keuangan WannaBeStart",
+            "Deka is a person who can bring a positive vibe and professionalism to a team. Can take care of finances and only with trust, all work can be done.",
           image: require("../assets/images/Anggota/deka.jpg"),
           isRight: true,
         },
@@ -76,7 +76,7 @@ export default {
           github: "https:/github.com/gerysantoso03",
           instagram: "https:/www.instagram.com/gerysntos/",
           desc:
-            "Buat apa rajin bekerja, kalau client suka bayar menunda-nunda :)",
+            "I am an agile person, determined, and eager to learn new things especially in technologies. WannaBeStart is a place for me to grow and improve the skills i have, both soft and hard skills. I hope WannaBeStart can become enormous and successful company, that can be useful to community and be known across the world",
           image: require("../assets/images/Anggota/gery.jpg"),
           isLeft: true,
         },
@@ -87,7 +87,7 @@ export default {
           github: "https:/github.com/uzivurt0",
           instagram: "https:/www.instagram.com/faisal.frhan",
           desc:
-            "Fafa adalah mahasiswa Informatika yang juga memiliki passion di bidang desain grafis, Fafa adalah seorang anak dari keluarga yang berkecukupan, karena Alhamdulillah semuanya serba cukup. Seorang yang insya Allah tegas dan pemberani katanya. Hobi Fafa adalah motoran, jadi kalau ada yang mau motoran sembari ngupi santai boleh dikontak",
+            "Muhammad Faisal Farhan (Fafa) is a handsome boy from Ciputat that can be very reliable if asked, he is a very nice guy and fun to talk with. His main focus is in Frontend Developer. He really loves automotive, especially cars and bikes.",
           image: require("../assets/images/Anggota/fafa.jpg"),
           isRight: true,
         },
@@ -98,7 +98,7 @@ export default {
           github: "https:/github.com/IFadla",
           instagram: "https:/www.instagram.com/ifadla_/",
           desc:
-            "Fadla adalah mahasiswa informatika yang memiliki jiwa seni dan desain, ketika sebuah karya seni dan teknologi disatukan akan menciptakan suatu hal yang sangat indah untuk dipandang maupun digunakan, dengan tujuan saya yaitu dapat memberikan warna bagi orang-orang yang membutuhkan walaupun hanya setetes warna saja itu merupakan suatu tujuan yang harus saya kejar mulai dari sekarang.",
+            "people who like things in design and combined with technology. That's me, fadla",
           image: require("../assets/images/Anggota/fadla.jpg"),
           isLeft: true,
         },
@@ -109,7 +109,7 @@ export default {
           github: "https:/github.com/zaldi-99/",
           instagram: "https:/www.instagram.com/rizkyzaldi/",
           desc:
-            "Zaldi adalah mahasiswa yang tidak sengaja tercebur pada bidang IT namun harus tetap bertahan sampai menemukan daratan. Pada Wannabestart saat ini memegang peran sebagai mobile developer sambil terus memperdalam ilmu pada bidang mobile development agar produk yang dihasilkan oleh wannabestart dapat relevan dengan kebutuhan pasar.",
+            "Zaldi is a person who accidentally entered the informatics department, but is now living life as a final year student. Zaldi always tries to give the best and believes that everything will be at the right time with the best results",
           image: require("../assets/images/Anggota/zaldi.jpg"),
           isRight: true,
         },
@@ -120,7 +120,7 @@ export default {
           github: "https:/github.com/ridohendrawan",
           instagram: "https:/www.instagram.com/rido.h01/",
           desc:
-            "Rido adalah mahasiswa informatika yang kreatif dan penuh dengan ide baru serta hobi dalam membuat illustrasi dan design yang dapat menyampaikan maksud yang diinginkannya. Menjadi anak muda yang penuh dengan rasa ingin tau dan mencoba segala hal baru yang menarik serta bagian dari WannaBeStart untuk mewujudkan design yang kreatif dan menjadi bagian invoasi untuk mempersatukan kemampuan dari tim untuk mencapai suatu tujuan.",
+            "Hi, Want to know about me? Fine, I'm currently a computer science student who like to design but not really passion at code but i still have experience and understanding about code it self. That give me knowledge to design a good user interface which can actually be implemented at real project. Keep consistent to follow your dreams, at little bit quotes for ya'all. Cheers!",
           image: require("../assets/images/Anggota/rido.jpg"),
           isLeft: true,
         },
@@ -131,7 +131,7 @@ export default {
           github: "https://github.com/frmdhn",
           instagram: "https://www.instagram.com/faiz_ramdhani/",
           desc:
-            "Faiz adalah mahasiswa yang merasa tersesat di jurusan informatika. saya tidak mengerti hal banyak tentang dunia informatika. Tetapi terimakasih untuk WBS dan anggotanya karena memberikan saya wadah untuk lebih mengeksplor diri saya dan mengajarkan saya hal-hal didunia informatika ini. Semoga kita sukses bersama!!",
+            "Faiz is a student who feels lost in the world of informatics. He doesn't know much about the world of informatics and yet he thrives to achieving and becoming the best as he's got a hardworking personality as well as being able to adapt easily to any and every kind of surroundings. And thanks to WBS and its members, he's got himself a platform to further explore himself and teach him things in this world of informatics. Hope we all can succeed together!",
           image: require("../assets/images/Anggota/faiz.jpg"),
           isRight: true,
         },
@@ -142,7 +142,7 @@ export default {
           github: "https:/github.com/Farfan16",
           instagram: "https:/www.instagram.com/farrelfanny/",
           desc:
-            "'Jangan lupa makan, tidur, istirahat' Maka dari itu saya selalu makan, tidur, istirahat :)",
+            "Farrel wasn't the type of guy who like to code, he never even code in his life until he went into college, majoring in informatics. Although Farrel have a lack of experience, he realise that technology keep evolving, and wtih a lot of room for him to explore, he'll try his best to catch up to technology around him.",
           image: require("../assets/images/Anggota/farel.jpg"),
           isLeft: true,
         },

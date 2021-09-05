@@ -35,40 +35,6 @@ export default {
       projects: [
         {
           id: 1,
-          name: "Onihat",
-          image: require("../assets/images/onihat.png"),
-          link: "https://onihat.wannabestart.com/onihat",
-          desc:
-            "Onihat is a social media to share emotions, feelings and experiences with someone anonymously. Onihat allows the user to feeling release of things that are burdens, sorrow, anxiety towards someone freely. Hopefully onihat can help people express everything they want to share every day without feeling fearful",
-          webTechnologies: [
-            {
-              id: 1,
-              class: "fab fa-vuejs",
-            },
-            {
-              id: 2,
-              class: "fab fa-sass",
-            },
-          ],
-          mobileTechnologies: [
-            {
-              id: 1,
-              class: "fab fa-react",
-            },
-            {
-              id: 2,
-              class: "fab fa-css3-alt",
-            },
-          ],
-          designTechnologies: [
-            {
-              id: 1,
-              class: "fab fa-figma",
-            },
-          ],
-        },
-        {
-          id: 2,
           name: "CurrusRent",
           image: require("../assets/images/curus.png"),
           link: "",
@@ -100,7 +66,7 @@ export default {
           ],
         },
         {
-          id: 3,
+          id: 2,
           name: "Nisuma Paper",
           image: require("../assets/images/nisuma.png"),
           link: "https://nisumapapercups.com/",
@@ -122,6 +88,136 @@ export default {
             {
               id: 4,
               class: "fab fa-js",
+            },
+          ],
+          designTechnologies: [
+            {
+              id: 1,
+              class: "fab fa-figma",
+            },
+          ],
+        },
+        {
+          id: 3,
+          name: "Aero 99 Autocars",
+          image: require("../assets/images/aero.png"),
+          link: "https://aero99autocars.com/",
+          desc:
+            "Aero 99 autocars was our second client project. Aero 99 autocars is a marketplace and garage for people to entrust their vehicle for sale. WannaBeStart built the functionality and design of aero 99 website, therefore aero 99 can expand their bussiness and be better know by many people",
+          webTechnologies: [
+            {
+              id: 1,
+              class: "fab fa-php",
+            },
+            {
+              id: 2,
+              class: "fab fa-laravel",
+            },
+            {
+              id: 3,
+              class: "fab fa-css3-alt",
+            },
+            {
+              id: 4,
+              class: "fab fa-js",
+            },
+          ],
+          designTechnologies: [
+            {
+              id: 1,
+              class: "fab fa-figma",
+            },
+          ],
+        },
+        {
+          id: 4,
+          name: "Cooking Media",
+          image: require("../assets/images/cookmed.png"),
+          link: "",
+          desc:
+            "Cooking Media is a startup and our comrades in Skystar. Cooking Media provides a lot of food recipes and ingredients that help people learn by theirselves how to cook and make good cuisine. Wannabestart cooperate with Cooking Media to make prototype for their website and cooking media will give us feedback about our work flow during development.",
+          webTechnologies: [
+            {
+              id: 1,
+              class: "fab fa-php",
+            },
+            {
+              id: 2,
+              class: "fab fa-laravel",
+            },
+            {
+              id: 3,
+              class: "fab fa-css3-alt",
+            },
+            {
+              id: 4,
+              class: "fab fa-js",
+            },
+          ],
+          designTechnologies: [
+            {
+              id: 1,
+              class: "fab fa-figma",
+            },
+          ],
+        },
+        {
+          id: 5,
+          name: "WBS Links",
+          image: require("../assets/images/wbsLink.png"),
+          link: "",
+          desc:
+            "WBS Links, connect all your link platform needs with just one link. Share links from online stores, tiktok, youtube, official websites and others, with an attractive custom display that makes your branding more stylish.",
+          webTechnologies: [
+            {
+              id: 1,
+              class: "fab fa-laravel",
+            },
+            {
+              id: 2,
+              class: "fab fa-react",
+            },
+            {
+              id: 3,
+              class: "fab fa-css3-alt",
+            },
+            {
+              id: 4,
+              class: "fab fa-js",
+            },
+          ],
+          designTechnologies: [
+            {
+              id: 1,
+              class: "fab fa-figma",
+            },
+          ],
+        },
+        {
+          id: 6,
+          name: "Onihat",
+          image: require("../assets/images/onihat.png"),
+          link: "https://onihat.wannabestart.com/onihat",
+          desc:
+            "Onihat is a social media to share emotions, feelings and experiences with someone anonymously. Onihat allows the user to feeling release of things that are burdens, sorrow, anxiety towards someone freely. Hopefully onihat can help people express everything they want to share every day without feeling fearful",
+          webTechnologies: [
+            {
+              id: 1,
+              class: "fab fa-vuejs",
+            },
+            {
+              id: 2,
+              class: "fab fa-sass",
+            },
+          ],
+          mobileTechnologies: [
+            {
+              id: 1,
+              class: "fab fa-react",
+            },
+            {
+              id: 2,
+              class: "fab fa-css3-alt",
             },
           ],
           designTechnologies: [
