@@ -1,6 +1,6 @@
 <template>
   <section class="customers">
-    <h4 class="customers-title">Our <span>Recent</span> Customers</h4>
+    <h4 class="customers-title">Our <span>Recent</span> Clients</h4>
     <div class="customers-wrapper">
       <div
         class="customers-logo-card"

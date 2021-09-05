@@ -1,4 +1,4 @@
- <template>
+<template>
   <section class="customer-cards">
     <h4 class="customer-cards-title">
       See what are our <span>customers</span> tell us about
@@ -86,7 +86,6 @@ export default {
       background-color: #fff;
       padding: 2rem;
       border-radius: 1rem;
-      height: 40rem;
 
       .quote {
         margin-bottom: 1rem;
