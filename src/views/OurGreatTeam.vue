@@ -49,9 +49,9 @@ export default {
         {
           name: "Kharansyah Thawaddu Shalam",
           job: "CEO",
-          linkedin: "https:/www.linkedin.com/in/kharansyahts/",
-          github: "https:/github.com/rans0",
-          instagram: "https:/www.instagram.com/dekrannn/",
+          linkedin: "https://www.linkedin.com/in/kharansyahts/",
+          github: "https://github.com/rans0",
+          instagram: "https://www.instagram.com/dekrannn/",
           desc:
             "WannaBeStart I formed with three of my friends before, starting from my idea that wants to create a project that can be used by many people but in the end the project is abandoned, its funny hahaha and now focused on making money while improving skills while looking for clients while realizing WBS into a startup in the future. My Role at WannaBeStart is as a Backend Developer but sometimes I double as a shaman in order to increase the approval rate of prospective clients.",
           image: require("../assets/images/Anggota/ran.jpg"),
@@ -61,9 +61,9 @@ export default {
           name: "Deka Primatio Deandra",
           job: "Project Manager",
           linkedin:
-            "https:/www.linkedin.com/in/deka-primatio-deandra-5487061aa/",
-          github: "https:/github.com/dekapd99",
-          instagram: "https:/www.instagram.com/deka_pd/",
+            "https://www.linkedin.com/in/deka-primatio-deandra-5487061aa/",
+          github: "https://github.com/dekapd99",
+          instagram: "https://www.instagram.com/deka_pd/",
           desc:
             "Deka is a person who can bring a positive vibe and professionalism to a team. Can take care of finances and only with trust, all work can be done.",
           image: require("../assets/images/Anggota/deka.jpg"),
@@ -72,8 +72,8 @@ export default {
         {
           name: "Gery Santoso",
           job: "Fullstack Developer",
-          linkedin: "https:/www.linkedin.com/in/gerysantos03/",
-          github: "https:/github.com/gerysantoso03",
+          linkedin: "https://www.linkedin.com/in/gerysantos03/",
+          github: "https://github.com/gerysantoso03",
           instagram: "https:/www.instagram.com/gerysntos/",
           desc:
             "I am an agile person, determined, and eager to learn new things especially in technologies. WannaBeStart is a place for me to grow and improve the skills i have, both soft and hard skills. I hope WannaBeStart can become enormous and successful company, that can be useful to community and be known across the world",
@@ -83,9 +83,9 @@ export default {
         {
           name: "Muhammad Faisal Farhan",
           job: "Frontend Developer",
-          linkedin: "https:/linkedin.com/in/muhammad-faisal-farhan",
-          github: "https:/github.com/uzivurt0",
-          instagram: "https:/www.instagram.com/faisal.frhan",
+          linkedin: "https://linkedin.com/in/muhammad-faisal-farhan",
+          github: "https://github.com/uzivurt0",
+          instagram: "https://www.instagram.com/faisal.frhan",
           desc:
             "Muhammad Faisal Farhan (Fafa) is a handsome boy from Ciputat that can be very reliable if asked, he is a very nice guy and fun to talk with. His main focus is in Frontend Developer. He really loves automotive, especially cars and bikes.",
           image: require("../assets/images/Anggota/fafa.jpg"),
@@ -94,8 +94,8 @@ export default {
         {
           name: "Fadla Ichsan",
           job: "Frontend Developer",
-          linkedin: "https:/www.linkedin.com/in/fadla-ichsan-a4a067207",
-          github: "https:/github.com/IFadla",
+          linkedin: "https://www.linkedin.com/in/fadla-ichsan-a4a067207",
+          github: "https://github.com/IFadla",
           instagram: "https:/www.instagram.com/ifadla_/",
           desc:
             "people who like things in design and combined with technology. That's me, fadla",
@@ -105,9 +105,9 @@ export default {
         {
           name: "Mochamad Rizky Zaldi",
           job: "Mobile Developer",
-          linkedin: "https:/www.linkedin.com/in/rizkyzaldi/",
-          github: "https:/github.com/zaldi-99/",
-          instagram: "https:/www.instagram.com/rizkyzaldi/",
+          linkedin: "https://www.linkedin.com/in/rizkyzaldi/",
+          github: "https://github.com/zaldi-99/",
+          instagram: "https://www.instagram.com/rizkyzaldi/",
           desc:
             "Zaldi is a person who accidentally entered the informatics department, but is now living life as a final year student. Zaldi always tries to give the best and believes that everything will be at the right time with the best results",
           image: require("../assets/images/Anggota/zaldi.jpg"),
@@ -116,9 +116,9 @@ export default {
         {
           name: "Rido Hendrawan",
           job: "Social Media Design",
-          linkedin: "https:/www.linkedin.com/in/rido-hendrawan-9752371a4/",
-          github: "https:/github.com/ridohendrawan",
-          instagram: "https:/www.instagram.com/rido.h01/",
+          linkedin: "https://www.linkedin.com/in/rido-hendrawan-9752371a4/",
+          github: "https://github.com/ridohendrawan",
+          instagram: "https://www.instagram.com/rido.h01/",
           desc:
             "Hi, Want to know about me? Fine, I'm currently a computer science student who like to design but not really passion at code but i still have experience and understanding about code it self. That give me knowledge to design a good user interface which can actually be implemented at real project. Keep consistent to follow your dreams, at little bit quotes for ya'all. Cheers!",
           image: require("../assets/images/Anggota/rido.jpg"),
@@ -127,7 +127,7 @@ export default {
         {
           name: "Faiz Ramdhani",
           job: "Public Relation",
-          linkedin: "",
+          linkedin: "https://www.linkedin.com/in/faiz-ramdhani-ab19081b8/",
           github: "https://github.com/frmdhn",
           instagram: "https://www.instagram.com/faiz_ramdhani/",
           desc:
@@ -138,9 +138,9 @@ export default {
         {
           name: "Farrel Irsyad Fanny",
           job: "Social Media Planner",
-          linkedin: "https:/www.linkedin.com/in/farrel-irsyad-fanny-88a0911b9/",
-          github: "https:/github.com/Farfan16",
-          instagram: "https:/www.instagram.com/farrelfanny/",
+          linkedin: "https://www.linkedin.com/in/farrel-irsyad-fanny-88a0911b9/",
+          github: "https://github.com/Farfan16",
+          instagram: "https://www.instagram.com/farrelfanny/",
           desc:
             "Farrel wasn't the type of guy who like to code, he never even code in his life until he went into college, majoring in informatics. Although Farrel have a lack of experience, he realise that technology keep evolving, and wtih a lot of room for him to explore, he'll try his best to catch up to technology around him.",
           image: require("../assets/images/Anggota/farel.jpg"),
